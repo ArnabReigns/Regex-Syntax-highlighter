@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+@font-face {
+    font-family: consolus;
+    src: url(./Consolas.ttf);
+  }
+@font-face {
+    font-family: code;
+    src: url(./codeb.otf);
+  }
+
+
+*,html 
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+body 
+{
+    width: 100%;
+    min-width: none;height: 100vh;
+    background-color: rgb(230, 230, 230);
+}
+
+.cont2
+{
+    padding: 1rem 4rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cont2 button 
+{
+    margin-left : 1rem;
+    padding: 0.5rem 1rem;
+    box-shadow: 0 0 7px -1px rgba(0, 0, 0, 0.57);
+    background-color: rgb(7, 135, 209);
+    color: white;
+    border-radius: 45px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+
+    
+}
+
+button:active{
+    background-color: rgb(8, 99, 152);
+}
+
+.title 
+{
+    padding: 1rem 0 ;
+    border-bottom: 1px solid gray;
+    margin: 0 2rem;
+}
+
+h3 
+{
+    padding-bottom: 0.5rem;
+    margin: 3rem 0 0 4rem;
+}
+
+.container 
+{
+    padding: 1rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+
+textarea
+{
+    flex: 1;
+    margin-right: 2rem;
+    padding: 2rem 1rem;
+    font-family: 'Roboto';
+    font-size: 1rem;
+    resize: none;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 5px -2px rgb(48, 48, 48) ;
+    outline: none;
+}
+
+.code
+{
+    background-color: #242424;
+    padding:2rem 1rem;
+    color: rgb(206, 92, 92);
+    white-space: pre-wrap;
+    font-family: consolus;
+    width: fit-content;
+    border-radius: 10px;
+    min-width: 50%;
+    letter-spacing:1.2px;
+    flex: 1;
+}
+
+.inbuilt 
+{
+    color: #569CCA;
+}
+
+.fstring
+{
+    color: #8CDCFE;
+}
+
+.variable 
+{
+    color: #8CDCFE;
+}
+
+.ChainStart 
+{
+    color: rgb(127, 236, 255);
+}
+
+.ChainChild
+{
+    color: #DCDC8B;
+}
+
+.string
+{
+    color: #CE8349;
+}
+
+.sBrac 
+{
+    color:#DA70CA;
+}
+.fBrac 
+{
+    color:#3456d1;
+}
+.white
+{
+    color: rgb(231, 228, 221);
+}

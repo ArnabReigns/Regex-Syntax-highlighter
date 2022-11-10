@@ -1,0 +1,9 @@
+    var newUsername = "DankMemer"
+    const user = UserModel.find({ username:"JohnDoe" }).then( user=> {
+
+        console.log( user.email );
+        user.username = newUsername;
+        user.save().then( console.log("user saved successfully"))
+        .catch(console.log("something went wrong!"));
+
+    }).catch(err => console.log({ `errMsg : ${err}` })

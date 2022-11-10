@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Syntax Highlighter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1 class="title">Javascript syntax Highlighter with Regex</h1>
+    <h3>Playground</h3>
+    <div class="cont2">
+      <button value="Roboto">Roboto</button>
+      <button value="consolus">Consolas</button>
+      <button value="code">Code pro</button>
+    </div>
+
+    <div class="container">
+      <textarea name="" id="inputText" cols="30" rows="10">
+    var newUsername = "DankMemer"
+    const user = UserModel.find({ username:"JohnDoe" }).then( user=> {
+
+        console.log( user.email );
+        user.username = newUsername;
+        user.save().then( console.log("user saved successfully"));
+
+    .catch(console.log("something went wrong!"));
+    });</textarea
+      >
+      <div class="code" language="js"></div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
